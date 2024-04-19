@@ -1,2 +1,1 @@
-liquibase update --username=app_data_2 --password=sYPvydxA2sL37JDBvvJGSo --url=jdb
-c:oracle:thin:@sqlpractice_low?TNS_ADMIN=/workspaces/codespaces-blank/oracle  --changelog-file=TC3004B/newdb.sql 
+liquibase update --username=app_data_2 --password=sYPvydxA2sL37JDBvvJGSo --url=jdbc:oracle:thin:@sqlpractice_low?TNS_ADMIN=/workspaces/codespaces-blank/oracle  --changelog-file=TC3004B/newdb.sql 
