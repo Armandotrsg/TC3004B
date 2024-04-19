@@ -51,6 +51,6 @@ jobs:
       - uses: liquibase-github-actions/update@v4.27.0
         with:
           changelogFile: "changelog.json"
-          url: "jdbc:oracle:thin:@sqlpractice_low?TNS_ADMIN=/workspaces/codespaces-blank/oracle"
+          url: "jdbc:oracle:thin:@sqlpractice_low?TNS_ADMIN=./oracle"
           username: ${{ secrets.DB_USER }}
           password: ${{ secrets.DB_PASSWORD }}
